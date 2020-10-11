@@ -1,0 +1,26 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	@include font(14px, 400, $black-color, 1.14);
+	background-color: $white-color;
+}
+img,
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+textarea {
+	resize: none;
+}
+.link {
+	display: block;
+}
+.border {
+	border-top: 1px solid #ececec;
+}
+.current {
+	color: $hover-color;
+}
+.flexbox {
+	display: flex;
+}
